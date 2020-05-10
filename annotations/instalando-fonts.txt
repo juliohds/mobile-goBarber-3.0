@@ -1,0 +1,18 @@
+ir no google encontrar a font baixar
+
+criar pasta assets/fonts e colar arquivos de fonts
+
+criar arquivo na raiz react-native.config.js
+
+module.exports = {
+  project: {
+    ios: {},
+    android: {}
+  },
+  assets: [
+    './assets/fonts/'
+  ]
+}
+
+rodar yarn react-native link
+

@@ -1,0 +1,19 @@
+ yarn add react-native-vector-icons
+
+cd ios pod install
+
+info.plist
+
+<string>Feather.ttf</string>
+
+
+android > app > build.gradle
+
+end file
+
+project.ext.vectoricons = [
+  iconFontNames: ['Feather.ttf']
+]
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
+ yarn add @types/treact-native-vector-icons
